@@ -2,7 +2,7 @@
 A collection of optimization algorithms, tabulated data, and scripts for assistance for build customization. 
 
 ## Setup
-Various scripts are included to handle the process of scraping data from Fextralife, setting up a local SQLite database, and migrating scraped data to a local SQLite database.  
+Utility scripts are included to handle the process of scraping data from Fextralife, setting up a local SQLite database, and migrating scraped data to a local SQLite database.  
 
 It is assumed that the Nix project manager will be used to obtain project dependencies.
 
