@@ -2,19 +2,12 @@
 A collection of optimization algorithms, tabulated data, and scripts to assist the process of designing character builds in Elden Ring. 
 
 ## Usage
-**Setup**
+- Utility scripts are included to handle the process of scraping data from Fextralife, setting up a local SQLite database, and migrating scraped data to a local SQLite database 
 
-Utility scripts are included to handle the process of scraping data from Fextralife, setting up a local SQLite database, and migrating scraped data to a local SQLite database.  
+> It is assumed that the Nix project manager will be used to obtain project dependencies
 
-It is assumed that the Nix project manager will be used to obtain project dependencies.
-
-**Data**
-
-Pre-scraped, tabulated data can be found under `data/csv`.
-
-**Optimization API**
-
-Examine files in the`theorycraft` directory; the public API is self-documented. 
+- Pre-scraped, tabulated data can be found under `data/csv`.
+- The self-documented API can be found under `theorycraft`
 
 ## Roadmap 
 This is intended to be an exploratory prototype; it is unlikely this will be maintained in the long term.
