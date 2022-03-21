@@ -1,11 +1,12 @@
 # elden-ring-theorycrafting
 A collection of optimization algorithms, tabulated data, and scripts to assist the process of designing character builds in Elden Ring. 
 
+## Setup
+Utility scripts are included to handle the process of scraping data from Fextralife, setting up a local SQLite database, and migrating scraped data to a local SQLite database 
+
+It is assumed that the Nix project manager will be used to obtain project dependencies
+
 ## Usage
-- Utility scripts are included to handle the process of scraping data from Fextralife, setting up a local SQLite database, and migrating scraped data to a local SQLite database 
-
-> It is assumed that the Nix project manager will be used to obtain project dependencies
-
 - Pre-scraped, tabulated data can be found under `data/csv`.
 - The self-documented API can be found under `theorycraft`
 
