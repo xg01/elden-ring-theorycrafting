@@ -12,5 +12,5 @@ Examine files in the`theorycraft` directory; the public API is self-documented.
 ## Roadmap 
 This is an exploratory prototype and will not be maintained in the long-term.
 
-Python was chosen with the assumption that existing libraries are sufficient.  However, it does not have a maintained Datalog implementation to provide deductive database queries. This is especially important for the primary use-case of providing introspective insights.  Of course, this could be implemented from scratch, but it defeats the purpose of Python in the first place.
+Python was chosen with the assumption that existing libraries are sufficient.  However, it does not have a maintained Datalog implementation to provide deductive database queries. This is especially important for the primary use-case of providing introspective insights.  Of course, this could be implemented from scratch, but it invalidates one of strongest arguments to use Python.
 
