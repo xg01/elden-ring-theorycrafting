@@ -1,5 +1,5 @@
 # elden-ring-theorycrafting
-A collection of optimization algorithms, tabulated data, and scripts to assist the process of build customization. 
+A collection of optimization algorithms, tabulated data, and scripts to assist the process of designing character builds in Elden Ring. 
 
 ## Setup
 Utility scripts are included to handle the process of scraping data from Fextralife, setting up a local SQLite database, and migrating scraped data to a local SQLite database.  
