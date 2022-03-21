@@ -10,8 +10,8 @@ It is assumed that the Nix project manager will be used to obtain project depend
 Examine files in the`theorycraft` directory; the public API is self-documented. 
 
 ## Roadmap 
-This is an exploratory prototype.   
+This is intended to be an exploratory prototype; it is unlikely this will be maintained in the long term.
 
-Python was chosen with the assumption that existing libraries are sufficient.  However, it does not have a maintained Datalog implementation to provide deductive database queries. This is especially important for the primary use-case of providing introspective insights.  Of course, this could be implemented from scratch, but it invalidates one of strongest arguments to use Python.  Therefore, it is unlikely this will be maintained in the long-term.
+Python was chosen with the assumption that existing libraries are sufficient.  However, it does not have a maintained Datalog implementation to provide deductive database queries. This is especially important for the primary use-case of providing introspective insights.  Of course, this could be implemented from scratch, but it invalidates one of strongest arguments to use Python. 
 
 
