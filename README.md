@@ -9,6 +9,8 @@ It is assumed that the Nix project manager will be used to obtain project depend
 ## Usage
 Examine files in the`theorycraft` directory; the public API is self-documented. 
 
+Pre-scraped, tabulated data can be found under `data/csv`.
+
 ## Roadmap 
 This is intended to be an exploratory prototype; it is unlikely this will be maintained in the long term.
 
