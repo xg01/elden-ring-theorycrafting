@@ -1,5 +1,5 @@
 # elden-ring-theorycrafting
-A collection of automation scripts, optimization algorithms, and tabulated stats for assistance for build customization. 
+A collection of optimization algorithms, tabulated data, and scripts for assistance for build customization. 
 
 ## Setup
 Various scripts are included to handle the process of scraping data from Fextralife, setting up a local SQLite database, and migrating scraped data to a local SQLite database.  
@@ -7,7 +7,7 @@ Various scripts are included to handle the process of scraping data from Fextral
 It is assumed that the Nix project manager will be used to obtain project dependencies.
 
 ## Usage
-Examine files in the`theorycraft` directory; class methods are self-documented. 
+Examine files in the`theorycraft` directory; the public API is self-documented. 
 
 ## Roadmap 
 This is an exploratory prototype and will not be maintained in the long-term.
