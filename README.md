@@ -11,7 +11,7 @@ It is assumed that the Nix project manager will be used to obtain project depend
 - Self-documented API can be found under `theorycraft`
 
 ## Roadmap 
-This was mostly intended to be prototype API design for a theorcrafting environment; it currently is missing many implenentations, which shouldn't be done in Python for performance reasons. Google OR-Tools does handle some intended use cases, but it's API is less than ideal, and while it's possible to wrap C and C++ code, it unlikely is worth the effort. 
+This was mostly intended to be prototype API design for a theorycrafting environment.  It currently is missing many implenentation details, which shouldn't be done in Python for performance reasons. Google OR-Tools does handle some intended use cases, but it's API for bin packing problems hides away details that I want; and while it's possible to wrap C and C++ code, it unlikely is worth the effort. 
 
 Python was used with the assumption that existing libraries are sufficient.  However, it does not have a maintained Datalog implementation to provide deductive database queries. This is especially important for the primary use-case of providing introspective insights.  Of course, this could be implemented from scratch, but it invalidates one of strongest arguments to use Python. 
 
